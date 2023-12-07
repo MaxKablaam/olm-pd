@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "algorithm": "cpp",
+        "forward_list": "cpp",
+        "fstream": "cpp",
+        "list": "cpp",
+        "regex": "cpp",
+        "xhash": "cpp",
+        "xloctime": "cpp",
+        "xstring": "cpp",
+        "cstdlib": "cpp",
+        "mutex": "cpp",
+        "system_error": "cpp"
+    }
+}

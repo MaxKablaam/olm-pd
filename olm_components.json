@@ -1,0 +1,57 @@
+{
+	"name": "olm_components",
+	"som": "seed",
+	"audio": {
+    	"channels": 2
+  	},
+	"components": {
+		"sw1": {
+			"component": "Switch",
+			"pin": 27
+		},
+		"sw2": {
+			"component": "Switch",
+			"pin": 28
+		},
+        "bat": {
+			"component": "GateIn",
+			"pin": 3
+		},
+		"stereoswitch": {
+			"component": "Switch",
+			"pin": 2
+		},
+		"headphoneswitch": {
+			"component": "Switch",
+			"pin": 1
+		},
+		"headphonegate": {
+			"component": "GateOut",
+			"pin": 14
+		},
+		"knob1": {
+			"component": "AnalogControl",
+			"pin": 15
+		},
+		"knob2": {
+			"component": "AnalogControl",
+			"pin": 16
+		},
+        "knob3": {
+			"component": "AnalogControl",
+			"pin": 19
+		},
+		"knob4": {
+			"component": "AnalogControl",
+			"pin": 20
+		},
+		"led": {
+			"component": "RgbLed",
+			"pin": {
+				"r": 11,
+				"g": 12,
+				"b": 13
+			}
+		}
+	}
+}

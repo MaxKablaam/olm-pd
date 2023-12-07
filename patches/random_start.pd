@@ -1,0 +1,17 @@
+#N canvas 827 239 527 327 12;
+#X obj 480 188 loadbang;
+#X obj 564 315 snapshot~;
+#X obj 564 523 outlet;
+#X obj 564 371 abs;
+#X obj 585 188 bng 25 250 50 0 empty empty empty 17 7 0 10 #e4e4e4 #4d4d4d #373737;
+#X obj 559 259 adc~;
+#X obj 480 269 del 10;
+#X obj 564 443 * 1e+06;
+#X connect 0 0 6 0;
+#X connect 1 0 3 0;
+#X connect 3 0 7 0;
+#X connect 4 0 6 0;
+#X connect 5 0 1 0;
+#X connect 5 1 1 0;
+#X connect 6 0 1 0;
+#X connect 7 0 2 0;

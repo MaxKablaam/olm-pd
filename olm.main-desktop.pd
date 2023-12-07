@@ -1,0 +1,7 @@
+#N canvas 827 239 527 327 12;
+#X obj 339 1939 dac~;
+#X obj 339 1859 catch~ master_L;
+#X obj 459 1859 catch~ master_R;
+#X obj 19 19 patches/olm.main~;
+#X connect 1 0 0 0;
+#X connect 2 0 0 1;
