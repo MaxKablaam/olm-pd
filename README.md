@@ -110,9 +110,9 @@ This project owes its success to the dedication of Daisy, Plugdata, and Puredata
 
 - [Wasted Audio](https://wasted.audio/) for the generous help.
 - [Mike Moreno](https://mikemorenodsp.github.io/learning/) for the tools and advice.
+- Takumi Ogata for the helpful videos and advice.
 - [Daisy Seed Discord][daisy-discord]
 - [Plugdata Discord][plugdata-discord]
-<!-- - Takumi Ogata: That helpful dude on the daisy seed discord, for his help, and tutorials TODO -->
 
 ## Reference Material
 
